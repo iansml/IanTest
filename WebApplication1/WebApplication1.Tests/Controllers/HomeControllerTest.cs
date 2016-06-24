@@ -33,6 +33,7 @@ namespace WebApplication1.Tests.Controllers
 
             // Act
             ViewResult result = controller.About() as ViewResult;
+            //ism - test comment
 
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
